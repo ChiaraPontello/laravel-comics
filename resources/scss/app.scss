@@ -9,6 +9,11 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+main{
+    background-color: rgb(28, 28, 28);
+}
+.copertina{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
