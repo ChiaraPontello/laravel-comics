@@ -18,3 +18,11 @@ Route::get('/', function () {
     //dd($products);
     return view('home',compact('products'));
 });
+
+Route::get('/', function () {
+    $shop = config('shop.dbfooter');
+    dd($shop);
+    return view('partials.footer',compact('shop'));
+});
+
+
